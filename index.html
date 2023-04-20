@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>panda commerce</title>
+    <!-----------font awesome cdn---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------------bootstrap cdn-------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        input[type=search] {
+            width: 500px;
+        }
+
+        input[type=email] {
+            max-width: 500px;
+        }
+
+        /* input[type=search]::after {
+            content: '\f002';
+            font-family: 'font awesome 6 free';
+            font-weight: bold;
+            position: absolute;
+        } */
+    </style>
+</head>
+
+<body>
+    <!----------------------navigation bar start------------------->
+    <header class="container mb-5">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" width="200"
+                        class="d-inline-block align-text-top">
+                </a>
+                <form class="d-flex position-relative d-none d-lg-block ms-4 " role="search">
+                    <input class="form-control search-custom" type="search" placeholder="Search" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle"></i>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-----------------------------banner start--------------->
+    <section class="container mb-5">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class=" carousel-item active">
+                    <div class=" row rounded-5 px-0 px-md-5 py-4 mx-0 d-flex justify-content-between  align-items-center flex-column flex-lg-row"
+                        style="background-color:#FEEAE9;">
+                        <div
+                            class="col-12 col-lg-6 px-5 mb-5 mb-md-5 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+                            <h1 class="text-black fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                            <h3 style="color: #FF136F;">$1289</h3>
+                            <button class="btn text-white fw-bold px-5 py-3"
+                                style="background-image: linear-gradient( #FF589B, #FF136F);"> BUY NOW
+                                <i class="fa-solid fa-arrow-right ms-2"></i></button>
+                        </div>
+                        <div class="w-50 justify-content-end col-12 col-md-6 ">
+                            <img src="images/banner-images/tv.png" class=" img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------slide 2---------------------------->
+                <div class=" carousel-item">
+                    <div class=" row rounded-5 px-0 px-md-5 py-4 mx-0 d-flex justify-content-between  align-items-center flex-column flex-lg-row"
+                        style="background-color:#FEEAE9;">
+                        <div
+                            class="col-12 col-lg-6 px-5 mb-5 mb-md-5 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+                            <h1 class="text-black fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                            <h3 style="color: #FF136F;">$1289</h3>
+                            <button class="btn text-white fw-bold px-5 py-3"
+                                style="background-image: linear-gradient( #FF589B, #FF136F);"> BUY NOW
+                                <i class="fa-solid fa-arrow-right ms-2"></i></button>
+                        </div>
+                        <div class="w-50 justify-content-end col-12 col-md-6 ">
+                            <img src="images/banner-images/headphone.png" class=" img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------------------slide-3------------------------------------>
+                <div class=" carousel-item ">
+                    <div class=" row rounded-5 px-0 px-md-5 py-4 mx-0 d-flex justify-content-between  align-items-center flex-column flex-lg-row"
+                        style="background-color:#FEEAE9;">
+                        <div
+                            class="col-12 col-lg-6 px-5 mb-5 mb-md-5 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+                            <h1 class="text-black fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                                nostrud amet.</p>
+                            <h3 style="color: #FF136F;">$1289</h3>
+                            <button class="btn text-white fw-bold px-5 py-3"
+                                style="background-image: linear-gradient( #FF589B, #FF136F);"> BUY NOW
+                                <i class="fa-solid fa-arrow-right ms-2"></i></button>
+                        </div>
+                        <div class="w-50 justify-content-end col-12 col-md-6 ">
+                            <img src="images/banner-images/xbox.png" class=" img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------categories section------------------------>
+    <section class="container mb-5">
+        <div class="container text-center">
+            <div class="row row-cols-1  row-cols-md-3 g-3 g-lg-4">
+                <div class="col">
+                    <div class="px-5 py-3 d-flex justify-content-between align-items-center rounded-4"
+                        style="background-image: linear-gradient(135deg, #FF9C35, #FFD019);">
+                        <h2 class="text-white">Watch</h2>
+                        <img class="img-fluid w-25" src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="px-5 py-3 d-flex justify-content-between align-items-center rounded-4"
+                        style="background-image: linear-gradient(#FF589B, #FF136F);">
+                        <h3 class="text-white">Bags</h3>
+                        <img class="img-fluid w-25" src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="px-5 py-3 d-flex justify-content-between align-items-center rounded-4"
+                        style="background-image: linear-gradient(#4289FF, #3F07F8);">
+                        <h3 class="text-white">Shoes</h3>
+                        <img class="img-fluid w-25" src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--------------------------main section shoe & Backpack starts------------------------>
+    <section class="container mb-5 py-5">
+        <!-----------------------------shoes section----------------------------->
+        <div class="container text-center mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold">Shoes</h2>
+                <span class="text-warning">See All</span>
+            </div>
+            <div class="row gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Reebok Pump</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$799</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Reebok All Terrain</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$699</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!----------------------bagpack area start------------------------->
+        <div class="container text-center mt-5 ">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold">Backpack</h2>
+                <span class="text-warning">See All</span>
+            </div>
+            <div class="row gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/bags/bag-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Ison Backpack</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$1289</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/bags/bag-2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Biaowang Backpack</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$799</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/bags/bag-3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-3 fw-bold">Dxyizu WS54 Smart</h5>
+                            <p class="card-text mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet
+                                sint. </p>
+                            <h3>$699</h3>
+                            <a href="#" class="btn btn-dark px-4 my-3">BUY NOW <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--------------------------Member section------------------------------>
+    <section class="container mb-5">
+        <div class="p-5 rounded-4" style="background-color: #FEEAE9;">
+            <div class="text-center">
+                <h3>LET'S STAY IN TOUCH</h3>
+                <p>Get updates on sales specials and more</p>
+            </div>
+            <div>
+                <form class="d-flex justify-content-center">
+                    <input type="email" class="form-control form-control-lg rounded-end-0 w-50"
+                        id="exampleFormControlInput1" placeholder="Enter Your Email">
+                    <button class="btn rounded-start-0 text-white fs-5 px-4" type="submit"
+                        style="background-image: linear-gradient( #FF589B, #FF136F);">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
